@@ -17,3 +17,8 @@ spring:
 jwt:
   access-expiration: 15m
   refresh-expiration: 7d
+
+cors:
+  allowed-origins:
+    - http://localhost:5173
+    - http://localhost:3000
